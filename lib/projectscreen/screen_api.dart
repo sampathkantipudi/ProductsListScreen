@@ -36,6 +36,7 @@ class _AlbumListScreenState extends State<AlbumListScreen> {
     }
   }
 
+// To build Album List View
   Widget buildAlbumList(BuildContext context){
     return FutureBuilder<List<AlbumResponse>>(
         future: fetchAlbumList(),
